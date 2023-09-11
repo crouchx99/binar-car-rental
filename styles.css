@@ -1,4 +1,128 @@
-#hero {
-    background-color: #f1f3ff;
-    height: 504px;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#hero{
+  height: 504px;
+}
+
+#testimonials {
+  padding-bottom: 100px;
+}
+
+#services {
+  width: 1027px;
+  margin: 100px auto;
+}
+
+#why-us {
+  padding-bottom: 100px;
+}
+
+nav {
+  padding-top: 24px;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.navbar-nav > li{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.content {
+  padding-top: 100px;
+}
+
+.content h1{
+  line-height: 54px;
+  font-size: 36px;
+}
+
+.content p {
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.car-image img {
+  position: absolute;
+  top: 97px;
+  right: 0;
+}
+
+.service-content {
+  width: 530px;
+  padding-left: 70px;
+}
+
+.service-content h4{
+  margin-bottom: 24px;
+}
+
+.service-content p {
+  font-size: 14px;
+}
+
+.service-content ul {
+  padding: 0;
+  font-size: 14px;
+}
+
+.service-content ul li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+
+.service-content ul li img {
+  padding-right: 10px;
+}
+
+.why-us-content h4{
+  margin-bottom: 15px;
+}
+
+.why-us-content p{
+  margin-bottom: 50px;
+}
+
+.testimonial-content h4 {
+  margin-bottom: 16px;
+}
+
+.testimonial-content p {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.carousel-inner {
+  width: 50%;
+}
+
+.carousel-item {
+  height: 270px;
+  border-radius: 8px;
+  background: #f1f3ff;
+}
+
+.item-position {
+  position: absolute;
+  top: 60px;
+}
+
+.item-photo {
+  padding: 0 40px;
+}
+
+.item-name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.item-content p {
+  font-size: 14px;
+}
