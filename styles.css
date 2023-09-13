@@ -21,6 +21,14 @@
   padding-bottom: 100px;
 }
 
+#cta {
+  padding-bottom: 100px;
+}
+
+#faq {
+  padding-bottom: 100px;
+}
+
 nav {
   padding-top: 24px;
 }
@@ -99,30 +107,47 @@ nav {
   margin-bottom: 40px;
 }
 
-.carousel-inner {
+.carousel-card {
   width: 50%;
-}
-
-.carousel-item {
   height: 270px;
   border-radius: 8px;
   background: #f1f3ff;
-}
-
-.item-position {
-  position: absolute;
-  top: 60px;
+  margin: 0 auto;
 }
 
 .item-photo {
   padding: 0 40px;
 }
 
-.item-name {
-  font-size: 14px;
-  font-weight: 400;
+.item-content {
+  padding-right: 32px;
 }
 
 .item-content p {
   font-size: 14px;
+}
+
+.cta-body {
+  background: #0D28A6;
+  color: #ffffff;
+  height: 326px;
+  border-radius: 13px;
+}
+
+.cta-content {
+  padding-top: 54px;
+}
+
+.cta-text p {
+  width: 468px;
+  margin: 0 auto 52px;
+  font-weight: 300;
+}
+
+.accordion-item, .accordion-button {
+  border-radius: 4px;
+}
+
+footer {
+  padding-bottom: 75px;
 }
