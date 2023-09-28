@@ -1,0 +1,340 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#hero {
+  background-color: #f1f3ff;
+  height: auto;
+  position: relative;
+}
+
+#services,
+#testimonials,
+#why-us,
+#cta,
+#faq {
+  padding-top: 100px;
+}
+
+nav {
+  padding-top: 24px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.navbar-nav > li {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.content {
+  padding-top: 100px;
+  padding-bottom: 88px;
+}
+
+.content h1 {
+  line-height: 54px;
+  font-size: 36px;
+}
+
+.content p {
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.car-image {
+  width: 100%;
+}
+
+.car-image img {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+}
+
+.service-img {
+  width: 100%;
+  padding-left: 5rem;
+}
+
+/* .service-img img {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+} */
+
+.service-content {
+  padding: 40px 32px 0 48px;
+}
+
+.service-content h4 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.service-content p {
+  font-size: 14px;
+}
+
+.service-content ul {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.service-content ul li {
+  padding-bottom: 15px;
+}
+
+.service-content ul li img {
+  padding-right: 10px;
+}
+
+.why-us-content .card-body {
+  padding: 24px;
+}
+
+.why-us-content h4 {
+  margin-bottom: 15px;
+}
+
+/* .why-us-content p {
+  margin-bottom: 30px;
+} */
+
+.card-body h6 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.testimonial-content h4 {
+  margin-bottom: 16px;
+}
+
+.testimonial-content p {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.carousel-card {
+  width: 50%;
+  height: 270px;
+  border-radius: 8px;
+  background: #f1f3ff;
+  margin: 0 auto;
+}
+
+.item-photo {
+  padding: 0 40px;
+}
+
+.item-content {
+  padding-right: 32px;
+}
+
+.item-content p {
+  font-size: 14px;
+}
+
+.cta-body {
+  background: #0d28a6;
+  color: #ffffff;
+  /* padding-top: 10px; */
+  padding-bottom: 60px;
+  border-radius: 12px;
+}
+
+.cta-content {
+  padding-top: 20px;
+}
+
+.cta-text p {
+  width: 55%;
+  margin: 0 auto 52px;
+  font-weight: 300;
+}
+
+.accordion-item,
+.accordion-button {
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+}
+
+.accordion-button:not(.collapsed) {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-radius: 0;
+}
+
+footer {
+  padding: 150px 0 100px;
+}
+
+.footer-nav {
+  font-weight: 500;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .offcanvas.offcanvas-end {
+    width: 55%;
+  }
+
+  #services,
+  #why-us,
+  #testimonials,
+  #cta,
+  #faq {
+    padding-top: 3.5rem;
+  }
+
+  #hero {
+    height: 40rem;
+    position: relative;
+  }
+
+  .car-image img {
+    width: 100% !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-top: 1.3rem;
+    padding-left: 0.8rem;
+  }
+
+  .service-img img {
+    width: 100%;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+
+  .service-content {
+    padding: 1.5rem 0 0;
+  }
+
+  .why-us-header h4 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimony-content img {
+    padding: 1.5rem 0;
+  }
+
+  .testimony-content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .carousel-card {
+    width: 100%;
+    height: 23rem;
+  }
+
+  .item-photo {
+    text-align: center;
+  }
+
+  .item-content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .item-content img {
+    padding: 1.35rem 0;
+  }
+
+  .item-content p {
+    font-size: 0.875rem;
+    text-align: left;
+  }
+
+  .testimonial-display {
+    display: block !important;
+    margin: 2.5rem 2rem;
+  }
+
+  .carousel-control-next {
+    padding-right: 0 !important;
+    padding-left: 1.3rem !important;
+  }
+  .carousel-control-prev {
+    padding-left: 0 !important;
+    padding-right: 1.3rem !important;
+  }
+
+  #cta .cta-body {
+    padding: 3.5rem 3.5rem;
+  }
+
+  .cta-text p {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 0.875rem;
+  }
+
+  .accordion-item,
+  .accordion-button {
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .why-us-content .card {
+    margin-bottom: 1rem;
+  }
+
+  #hero {
+    height: 44rem;
+  }
+
+  .car-image img {
+    width: 100%;
+  }
+
+  .carousel-card {
+    width: 80%;
+  }
+
+  .faq-text p {
+    margin-bottom: 1.5rem !important;
+  }
+
+  footer {
+    padding: 3.75rem 0;
+  }
+
+  .f-social {
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .footer-nav {
+    justify-content: start !important;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .car-image img {
+    width: 50%;
+  }
+}
